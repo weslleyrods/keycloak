@@ -1,0 +1,4 @@
+.docker/dbdata/
+
+./authentication-flow/node_modules/
+./authentication-flow/dist/

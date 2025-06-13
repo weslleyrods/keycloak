@@ -1,0 +1,11 @@
+
+
+FROM node:24.2.0-alpine3.22
+
+RUN apk add --no-cache bash
+  
+WORKDIR /home/node/app
+
+USER node
+
+CMD ["tail", "-f", "/dev/null"]
