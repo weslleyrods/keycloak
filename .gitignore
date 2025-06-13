@@ -1,4 +1,10 @@
 .docker/dbdata/
 
-./authentication-flow/node_modules/
-./authentication-flow/dist/
+
+# Dependências
+/node_modules
+node_modules/
+
+# Arquivos de build
+/dist
+dist/
